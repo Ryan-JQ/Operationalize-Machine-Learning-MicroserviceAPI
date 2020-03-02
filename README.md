@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/Ryan-JQ/Operationalize-Machine-Learning-MicroserviceAPI.svg?style=svg)](https://circleci.com/gh/Ryan-JQ/Operationalize-Machine-Learning-MicroserviceAPI)
 # Operationalize-a-Machine-Learning-Microservice-API
-Microservice Project [Udacity Cloud DevOps Engineer Nanodegree]
+Microservice Project
 
 ## Project Overview
 Deploy a containerized Python flask application to serve out predictions (inference) about housing prices through API calls. It uses a a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features. 
