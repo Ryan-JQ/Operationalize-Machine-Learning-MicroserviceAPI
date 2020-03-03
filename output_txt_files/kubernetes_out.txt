@@ -1,3 +1,4 @@
+<paste log output from Kubernetes-mediated prediction, here>
 Port: 8000
 {
   "prediction": [
