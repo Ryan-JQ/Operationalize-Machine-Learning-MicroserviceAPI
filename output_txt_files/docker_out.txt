@@ -1,13 +1,15 @@
-
-[2020-03-02 22:46:53,097] INFO in app: JSON payload: 
+ * Debugger is active!
+ * Debugger PIN: 183-600-055
+172.17.0.1 - - [03/Mar/2020 00:44:14] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [03/Mar/2020 00:44:14] "GET /favicon.ico HTTP/1.1" 404 -
+[2020-03-03 00:45:26,175] INFO in app: JSON payload:
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2020-03-02 22:46:53,110] INFO in app: Inference payload DataFrame: 
+[2020-03-03 00:45:26,195] INFO in app: Inference payload DataFrame:
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2020-03-02 22:46:53,120] INFO in app: Scaling Payload: 
+[2020-03-03 00:45:26,204] INFO in app: Scaling Payload:
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2020-03-02 22:46:53,132] INFO in app: output prediction: 
-   CHAS     RM    TAX  PTRATIO      B  LSTAT
-0     0  6.575  296.0     15.3  396.9   4.98
-172.17.0.1 - - [02/Mar/2020 22:46:53] "POST /predict HTTP/1.1" 200 -
+[2020-03-03 00:45:26,208] INFO in app: Prediction Returned Log:
+[20.35373177134412]
+172.17.0.1 - - [03/Mar/2020 00:45:26] "POST /predict HTTP/1.1" 200 -
